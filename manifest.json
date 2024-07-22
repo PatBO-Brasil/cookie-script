@@ -45,6 +45,16 @@
           "California",
           "EU + California"
         ]
+      },
+      "experimentalLazyLoad": {
+        "title": "Lazy load Cookie Script Pixel",
+        "type": "string",
+        "description": "Lazy load Cookie Script Pixel",
+        "enum": [
+          "default",
+          "always",
+          "never"
+        ]
       }
     }
   },
